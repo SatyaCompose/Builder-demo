@@ -1,0 +1,68 @@
+.megamenuContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    padding: 20px;
+    font-family: "Montserrat", "Arial", sans-serif;
+}
+
+.megamenuWeb {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to create multiple rows */
+    background-color: #fff;
+    padding: 40px 20px; /* Adjusted padding */
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px; /* Limit the max width */
+    justify-content: space-between; /* Distribute columns evenly */
+}
+
+.columnWeb {
+    flex: 1 1 16%; /* Adjusted flex-basis for narrower columns */
+    padding: 0 10px; /* Narrower padding */
+    min-width: 150px; /* Ensure minimum width */
+    margin-bottom: 20px; /* Add bottom margin for wrapping */
+}
+
+.titleWeb {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px; /* Adjust font size */
+    color: #333;
+}
+
+.columnWeb ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+.columnWeb ul li {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.columnWeb ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.columnWeb ul li a:hover,
+.columnWeb h3:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.lastItem {
+    padding-bottom: 10px;
+}
+
+.firstItem {
+    padding-top: 10px;
+}
+
+.lastColumnWeb {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
